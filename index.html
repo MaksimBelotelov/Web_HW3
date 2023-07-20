@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style/style.css" rel="stylesheet" type="text/css">
+    <title>Домашнее задание № 3</title>
+</head>
+<body>
+    <h2>Я не перекрашиваюсь, так как я заголовок h2.</h2>
+    <p>Я "p", Этот текст изменит цвет при нажатии на кнопку. Как и сама кнопка.</p>
+    <button id="myButton">Перекрасить</button>
+    <ul>Здесь список:
+        <li>Пункт один</li>
+        <li>Пункт два</li>
+        <li>Пункт три</li>
+    </ul>
+    <style>
+        p:hover {
+            color: green;
+        }
+    </style>
+    <p>Я изменю цвет при наведении</p>
+<script>
+    let name = prompt("Введите имя пользователя:");
+    alert("Привет, " + name + "!");
+</script>
+<script src="./scripts/ageScript.js"></script>
+<script src="./scripts/colorScript.js"></script>
+</body>
+</html>
